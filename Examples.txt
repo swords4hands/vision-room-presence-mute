@@ -1,0 +1,14 @@
+  Examples:
+
+  python3 room_checker_dual.py --present-in livingroom --state-file room_muted_state.txt
+  python3 room_checker_dual.py --present-in bedroom --state-file room_muted_state.txt
+
+  Optional tuning:
+
+  python3 room_checker_dual.py --present-in livingroom
+  --threshold 6000 --camera 1 --state-file room_muted_state.txt
+
+  Optional one-time init:
+
+  python3 room_checker_dual.py --present-in livingroom
+  --state-file room_muted_state.txt --init-muted livingroom
